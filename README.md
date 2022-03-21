@@ -1584,16 +1584,16 @@ In this step, we:
 
 The table below lists the **primitive types** in Java.
 
-| Type of Values | Java Primitive Type | Size (in bits) | Range of Values | Example |
-| :---: | :---: |:---: |:---: |:---:|
-| Integral Values |byte|8|```-128``` to ```127```|```byte b = 5;```|
-| Integral Values |short|16|```-32,768``` to ```32,767```|```short s = 128;```|
-| Integral Values |int|32|```-2,147,483,648``` to ```2,147,483,647```|```int i = 40000;```|
-| Integral Values |long|64|```-9,223,372,036,854,775,808``` to ```9,223,372,036,854,775,807```|```long l = 2222222222;```|
-|Floating-Point Values| float| 32 | approximately ±3.40282347E+38F. NOT very precise (avoid for financial/scientific math)|```float f = 4.0f;```|
-|Floating-Point Values|double|64| approximately ±1.79769313486231570E+308. NOT very precise, but better than float (also avoid for financial/scientific  math)|```double d = 67.0;```|
-|Character Values|char|16|```'\u0000``` to ```'\uffff```|```char c = 'A';```|
-|Boolean Values| boolean|1| ```true``` or ```false```|```boolean isTrue = false;```|
+| Type of Values | Java Primitive Type | Size (in bits) | Range of Values | Example | Default
+| :---: | :---: |:---: |:---: |:---:| :---:|
+| Integral Values |byte|8|```-128``` to ```127```|```byte b = 5;```| 0
+| Integral Values |short|16|```-32,768``` to ```32,767```|```short s = 128;```| 0
+| Integral Values |int|32|```-2,147,483,648``` to ```2,147,483,647```|```int i = 40000;```| 0
+| Integral Values |long|64|```-9,223,372,036,854,775,808``` to ```9,223,372,036,854,775,807```|```long l = 2222222222;```| 0L
+|Floating-Point Values| float| 32 | approximately ±3.40282347E+38F. NOT very precise (avoid for financial/scientific math)|```float f = 4.0f;```| 0.0f
+|Floating-Point Values|double|64| approximately ±1.79769313486231570E+308. NOT very precise, but better than float (also avoid for  financial/scientific  math)|```double d = 67.0;```| 0.0d
+|Character Values|char|16|```'\u0000``` to ```'\uffff```|```char c = 'A';```| '\u0000'
+|Boolean Values| boolean|1| ```true``` or ```false```|```boolean isTrue = false;```| false
 
 Let's now look at how we create data of these types, and store them in memory.
 
