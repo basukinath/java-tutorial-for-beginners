@@ -217,13 +217,6 @@ This was your first real **REPL** cycle! When you type in  ```3 + 4```, JShell e
 The ```/exit``` command terminates the ```JShell``` program, and we are back to the terminal prompt.
 
 
-```java
-
-	jshell> /exit
-	|  Goodbye
-	
-	in28minutes$>
-
 ```
 
 
